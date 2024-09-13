@@ -1,0 +1,147 @@
+:root{
+     --background1: #101820;
+     --background2:#FEE715;
+}
+body{
+    background-color: #EA738D;
+    margin-top: 0;
+    margin-left: 10%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 150vh;
+}
+.right{
+    float: left;
+    width: 40%;
+    height: 100%;
+    font-size: xx-large;
+    background-image: url(/1cf0a3cca44aaca4487bbf599d7f18af.jpg);
+    background-position: -20px ;
+    /* background-size: cover; */
+    
+}
+.right .title{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: sankofa ;
+}
+.title img{
+    height: 80px;
+}
+.left{
+    float: right;
+    border: 1px solid wheat;
+    width: 60%;
+    height: 97.5%;
+}
+ .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   line-height:-20px;
+   font-size: xx-large;
+   font-weight:bolder;
+   font-family:monospace;
+    height: 30%;
+    background-color: var(--background2);
+}
+.text p{
+    margin-left: 10%;
+   position: relative;
+   top: 20%;
+}
+.p{
+    position: absolute;
+    top: 30%;
+    left: -75%;
+}
+.form{
+    margin-top: -30px;
+    /* margin-left: 5%;
+    margin-top: 3%; */
+    width: 100%;
+    background-color: #101820;
+   
+
+}
+h2{
+    padding: 30PX;
+    color: white;
+}
+.form form{
+
+    margin: 40px;
+    height: 50vh;
+    width: 80%;
+}
+fieldset{
+  
+}
+ input{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: large;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+input:valid{
+     border: 3px solid var(--background2);
+
+}
+input:invalid{
+     border: 3px solid red;
+}
+label{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.btn{
+    margin-top: -40px;
+    width: 100%;
+    height: 27%;
+    background-color: var(--background2);
+}
+.btn input{
+    width: 30%;
+    height: 40px;
+    margin-left: 7%;
+    margin-bottom: -20px;
+   background-color:var(--background1);
+   color: var(--background2);
+
+}
+.btn h2 {
+   font-size: large;
+}
